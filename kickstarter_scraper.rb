@@ -15,6 +15,7 @@ def create_project_hash
     projects[project] = {}
   end
   #require 'pry'; binding.pry
+  projects
 end
 
 create_project_hash
